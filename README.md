@@ -67,3 +67,8 @@ Bugs
 ====
 
 Please report bugs to Matt Foster <ee1mpf@bath.ac.uk>
+
+History
+=======
+
+Moved from local SVN to GitHub: 20090120
