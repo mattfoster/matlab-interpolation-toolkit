@@ -14,7 +14,7 @@ Contents
     Pavel Sakov and is available at URL:
     http://www.marine.csiro.au/~sakov/nn.tar.gz
 
-Unless otherwise stated, all code is Copyright Matt Foster <ee1mpg@bath.ac.uk>
+Unless otherwise stated, all code is Copyright Matt Foster <ee1mpf@bath.ac.uk>
 
 Installation
 ============
