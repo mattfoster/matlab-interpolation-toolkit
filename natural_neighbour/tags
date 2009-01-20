@@ -1,0 +1,921 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.6	//
+AR	makefile	/^AR = ar$/;"	m
+ARFLAGS	makefile	/^ARFLAGS = cru$/;"	m
+Absolute	triangle.c	4563;"	d	file:
+BADSUBSEGPERBLOCK	triangle.c	294;"	d	file:
+BADTRIPERBLOCK	triangle.c	296;"	d	file:
+BIGNUMBER	minell.c	74;"	d	file:
+BIGNUMBER	nnpi.c	90;"	d	file:
+BUFSIZE	hash.c	475;"	d	file:
+BUFSIZE	minell.c	1132;"	d	file:
+BUFSIZE	nncommon.c	40;"	d	file:
+BUFSIZE	preader.c	36;"	d	file:
+BYTE_PER_INT	hash.c	24;"	d	file:
+CC	makefile	/^CC = gcc$/;"	m
+CFLAGS	makefile	/^CFLAGS = -g -O2 -Wall -pedantic$/;"	m
+CFLAGS_TRIANGLE	makefile	/^CFLAGS_TRIANGLE = -g -O2 -Wall -pedantic -w -ffloat-store$/;"	m
+CFLAGS_VULNERABLE	makefile	/^CFLAGS_VULNERABLE = -fno-force-mem -ffloat-store$/;"	m
+DEADVERTEX	triangle.c	309;"	d	file:
+DISTDIR	makefile	/^DISTDIR = ~\/pub_web$/;"	m
+DUPLICATEVERTEX	triangle.c	/^                         DUPLICATEVERTEX};$/;"	e	enum:insertvertexresult	file:
+ENCROACHINGVERTEX	triangle.c	/^enum insertvertexresult {SUCCESSFULVERTEX, ENCROACHINGVERTEX, VIOLATINGVERTEX,$/;"	e	enum:insertvertexresult	file:
+EPS	nncommon.c	41;"	d	file:
+EPS_SAME	nnpi.c	93;"	d	file:
+EPS_SHIFT	nnpi.c	89;"	d	file:
+EPS_WMIN	nnpi.c	91;"	d	file:
+FILENAMESIZE	triangle.c	278;"	d	file:
+FLIPSTACKERPERBLOCK	triangle.c	298;"	d	file:
+FLOATINGPOINT	triangle.c	/^enum wordtype {POINTER, FLOATINGPOINT};$/;"	e	enum:wordtype	file:
+FREEVERTEX	triangle.c	308;"	d	file:
+Fast_Two_Sum	triangle.c	4583;"	d	file:
+Fast_Two_Sum_Tail	triangle.c	4579;"	d	file:
+HEADERS	makefile	/^HEADERS=\\$/;"	m
+HT_SIZE	nnpi.c	92;"	d	file:
+INEXACT	triangle.c	273;"	d	file:
+INPUTLINESIZE	triangle.c	283;"	d	file:
+INPUTVERTEX	triangle.c	306;"	d	file:
+INSTALL	makefile	/^INSTALL = \/usr\/bin\/install -c$/;"	m
+INSTALLDIRS	makefile	/^INSTALLDIRS =\\$/;"	m
+INSTALL_DATA	makefile	/^INSTALL_DATA = ${INSTALL} -m 644$/;"	m
+INSTALL_PROGRAM	makefile	/^INSTALL_PROGRAM = ${INSTALL}$/;"	m
+INTRIANGLE	triangle.c	/^enum locateresult {INTRIANGLE, ONEDGE, ONVERTEX, OUTSIDE};$/;"	e	enum:locateresult	file:
+INT_PER_DOUBLE	hash.c	23;"	d	file:
+LDFLAGS	makefile	/^LDFLAGS = $/;"	m
+LEFTCOLLINEAR	triangle.c	/^enum finddirectionresult {WITHIN, LEFTCOLLINEAR, RIGHTCOLLINEAR};$/;"	e	enum:finddirectionresult	file:
+LIBOBJS	makefile	/^LIBOBJS = $(LIBSRC:.c=.o)$/;"	m
+LIBSRC	makefile	/^LIBSRC =\\$/;"	m
+MLIB	makefile	/^MLIB = -lm$/;"	m
+MULT	nncommon-vulnerable.c	31;"	d	file:
+M_PI	config.h	6;"	d
+NALLOCATED_START	minell.c	1131;"	d	file:
+NALLOCATED_START	nncommon.c	42;"	d	file:
+NINC	nnpi.c	88;"	d	file:
+NMAX	nnbathy.c	43;"	d	file:
+NMIN	nnai.c	170;"	d	file:
+NMIN	nnpi.c	950;"	d	file:
+NN_RULE	nn.h	/^typedef enum { SIBSON, NON_SIBSONIAN } NN_RULE;$/;"	t	typeref:enum:__anon8
+NON_SIBSONIAN	nn.h	/^typedef enum { SIBSON, NON_SIBSONIAN } NN_RULE;$/;"	e	enum:__anon8
+NO_TIMER	config.h	8;"	d
+NPOINTSIN	nnai.c	169;"	d	file:
+NPOINTSIN	nnpi.c	949;"	d	file:
+NSTART	nnpi.c	87;"	d	file:
+NTEST	minell.c	999;"	d	file:
+NX	nnai.c	171;"	d	file:
+NX	nnpi.c	951;"	d	file:
+NXMIN	nnai.c	172;"	d	file:
+NXMIN	nnpi.c	952;"	d	file:
+N_SEARCH_TURNON	delaunay.c	42;"	d	file:
+NaN	nan.h	/^static const double NaN = 0.0 \/ 0.0;$/;"	v
+NaN	nan.h	30;"	d
+NaN	nan.h	36;"	d
+ONEDGE	triangle.c	/^enum locateresult {INTRIANGLE, ONEDGE, ONVERTEX, OUTSIDE};$/;"	e	enum:locateresult	file:
+ONETHIRD	triangle.c	342;"	d	file:
+ONVERTEX	triangle.c	/^enum locateresult {INTRIANGLE, ONEDGE, ONVERTEX, OUTSIDE};$/;"	e	enum:locateresult	file:
+OUTSIDE	triangle.c	/^enum locateresult {INTRIANGLE, ONEDGE, ONVERTEX, OUTSIDE};$/;"	e	enum:locateresult	file:
+PI	triangle.c	334;"	d	file:
+POINTER	triangle.c	/^enum wordtype {POINTER, FLOATINGPOINT};$/;"	e	enum:wordtype	file:
+PROGRAMS	makefile	/^PROGRAMS =\\$/;"	m
+RANDOM	nnpi.c	533;"	d	file:
+REAL	triangle.c	216;"	d	file:
+REAL	triangle.c	218;"	d	file:
+REAL	triangle.h	247;"	d
+REAL	triangle.h	249;"	d
+RIGHTCOLLINEAR	triangle.c	/^enum finddirectionresult {WITHIN, LEFTCOLLINEAR, RIGHTCOLLINEAR};$/;"	e	enum:finddirectionresult	file:
+SAMPLEFACTOR	triangle.c	324;"	d	file:
+SAMPLERATE	triangle.c	330;"	d	file:
+SECANT_COUNT_MAX	minell.c	75;"	d	file:
+SECANT_EPS	minell.c	76;"	d	file:
+SEGMENTVERTEX	triangle.c	307;"	d	file:
+SHELL	makefile	/^SHELL = \/bin\/sh$/;"	m
+SIBSON	nn.h	/^typedef enum { SIBSON, NON_SIBSONIAN } NN_RULE;$/;"	e	enum:__anon8
+SPLAYNODEPERBLOCK	triangle.c	300;"	d	file:
+SQ	nnai.c	174;"	d	file:
+SQ	nnpi.c	954;"	d	file:
+SQUAREROOTTWO	triangle.c	338;"	d	file:
+STACK_NINC	istack.c	19;"	d	file:
+STACK_NSTART	istack.c	18;"	d	file:
+STARTINDEX	triangle.c	3162;"	d	file:
+STRBUFSIZE	nnbathy.c	45;"	d	file:
+SUBSEGPERBLOCK	triangle.c	290;"	d	file:
+SUCCESSFULVERTEX	triangle.c	/^enum insertvertexresult {SUCCESSFULVERTEX, ENCROACHINGVERTEX, VIOLATINGVERTEX,$/;"	e	enum:insertvertexresult	file:
+Split	triangle.c	4609;"	d	file:
+Square	triangle.c	4646;"	d	file:
+Square_Tail	triangle.c	4640;"	d	file:
+TESTS	makefile	/^TESTS=\\$/;"	m
+TRILIBRARY	config.h	7;"	d
+TRIPERBLOCK	triangle.c	289;"	d	file:
+Two_Diff	triangle.c	4605;"	d	file:
+Two_Diff_Tail	triangle.c	4598;"	d	file:
+Two_One_Diff	triangle.c	4657;"	d	file:
+Two_One_Product	triangle.c	4671;"	d	file:
+Two_One_Sum	triangle.c	4653;"	d	file:
+Two_Product	triangle.c	4623;"	d	file:
+Two_Product_Presplit	triangle.c	4630;"	d	file:
+Two_Product_Tail	triangle.c	4615;"	d	file:
+Two_Sum	triangle.c	4594;"	d	file:
+Two_Sum_Tail	triangle.c	4587;"	d	file:
+Two_Two_Diff	triangle.c	4665;"	d	file:
+Two_Two_Sum	triangle.c	4661;"	d	file:
+UNDEADVERTEX	triangle.c	310;"	d	file:
+UTILSRC	makefile	/^UTILSRC=\\$/;"	m
+VERTEXPERBLOCK	triangle.c	291;"	d	file:
+VIOLATINGVERTEX	triangle.c	/^enum insertvertexresult {SUCCESSFULVERTEX, ENCROACHINGVERTEX, VIOLATINGVERTEX,$/;"	e	enum:insertvertexresult	file:
+VIRUSPERBLOCK	triangle.c	292;"	d	file:
+VOID	triangle.c	316;"	d	file:
+WITHIN	triangle.c	/^enum finddirectionresult {WITHIN, LEFTCOLLINEAR, RIGHTCOLLINEAR};$/;"	e	enum:finddirectionresult	file:
+_DELAUNAY_H	delaunay.h	19;"	d
+_DELAUNAY_STRUCT	delaunay.h	44;"	d
+_DELAUNAY_STRUCT	nn.h	38;"	d
+_HASH_H	hash.h	18;"	d
+_ISTACK_H	istack.h	19;"	d
+_ISTACK_STRUCT	delaunay.h	38;"	d
+_ISTACK_STRUCT	istack.h	22;"	d
+_MINELL_H	minell.h	17;"	d
+_MINELL_STRUCT	minell.h	29;"	d
+_NAN_H	nan.h	20;"	d
+_NN_H	nn.h	19;"	d
+_NN_INTERNAL_H	nn_internal.h	19;"	d
+_POINT_STRUCT	minell.h	20;"	d
+_POINT_STRUCT	nn.h	26;"	d
+_PREADER_H	preader.h	17;"	d
+_VERSION_H	version.h	15;"	d
+_nnpi_calculate_weights	nnpi.c	/^static int _nnpi_calculate_weights(nnpi* nn, point* p)$/;"	f	file:
+a	minell.c	/^    double a;                   \/* semi-axis length *\/$/;"	m	struct:minell	file:
+alignbytes	triangle.c	/^  int alignbytes;$/;"	m	struct:memorypool	file:
+alpha	minell.c	/^    double alpha;$/;"	m	struct:minell	file:
+alternateaxes	triangle.c	/^void alternateaxes(sortarray, arraysize, axis)$/;"	f
+apex	triangle.c	1076;"	d	file:
+areabound	triangle.c	1140;"	d	file:
+areaboundindex	triangle.c	/^  int areaboundindex;             \/* Index to find area bound of a triangle. *\/$/;"	m	struct:mesh	file:
+areafilename	triangle.c	/^  char areafilename[FILENAMESIZE];$/;"	m	struct:behavior	file:
+b	minell.c	/^    double b;                   \/* semi-axis length *\/$/;"	m	struct:minell	file:
+bad	nnpi.c	/^    hashtable* bad;             \/* ids of vertices that require a special$/;"	m	struct:nnpi	file:
+badsubseg	triangle.c	/^struct badsubseg {$/;"	s	file:
+badsubsegdealloc	triangle.c	/^void badsubsegdealloc(m, dyingseg)$/;"	f
+badsubsegs	triangle.c	/^  struct memorypool badsubsegs;$/;"	m	struct:mesh	typeref:struct:mesh::memorypool	file:
+badsubsegtraverse	triangle.c	/^struct badsubseg *badsubsegtraverse(m)$/;"	f
+badtriang	triangle.c	/^struct badtriang {$/;"	s	file:
+badtriangles	triangle.c	/^  struct memorypool badtriangles;$/;"	m	struct:mesh	typeref:struct:mesh::memorypool	file:
+behavior	triangle.c	/^struct behavior {$/;"	s	file:
+beta	minell.c	/^    double beta;$/;"	m	struct:minell	file:
+bindir	makefile	/^bindir = ${exec_prefix}\/bin$/;"	m
+bond	triangle.c	1090;"	d	file:
+boundingbox	triangle.c	/^void boundingbox(m, b)$/;"	f
+c	minell.c	/^    point c;                    \/* ellipsoid center *\/$/;"	m	struct:minell	file:
+carveholes	triangle.c	/^void carveholes(m, b, holelist, holes, regionlist, regions)$/;"	f
+ccwerrboundA	triangle.c	/^REAL ccwerrboundA, ccwerrboundB, ccwerrboundC;$/;"	v
+ccwerrboundB	triangle.c	/^REAL ccwerrboundA, ccwerrboundB, ccwerrboundC;$/;"	v
+ccwerrboundC	triangle.c	/^REAL ccwerrboundA, ccwerrboundB, ccwerrboundC;$/;"	v
+check4deadevent	triangle.c	/^void check4deadevent(checktri, freeevents, eventheap, heapsize)$/;"	f
+checkdelaunay	triangle.c	/^void checkdelaunay(m, b)$/;"	f
+checkmesh	triangle.c	/^void checkmesh(m, b)$/;"	f
+checkquality	triangle.c	/^  int checkquality;                  \/* Has quality triangulation begun yet? *\/$/;"	m	struct:mesh	file:
+checkseg4encroach	triangle.c	/^int checkseg4encroach(m, b, testsubseg, iradius)$/;"	f
+checksegments	triangle.c	/^  int checksegments;         \/* Are there segments in the triangulation yet? *\/$/;"	m	struct:mesh	file:
+circle	delaunay.h	/^} circle;$/;"	t	typeref:struct:__anon3
+circle_build1	nncommon-vulnerable.c	/^int circle_build1(circle* c, point* p1, point* p2, point* p3)$/;"	f
+circle_build2	nncommon-vulnerable.c	/^int circle_build2(circle* c, point* p1, point* p2, point* p3)$/;"	f
+circle_contains	nncommon.c	/^int circle_contains(circle* c, point* p)$/;"	f
+circles	delaunay.h	/^    circle* circles;$/;"	m	struct:delaunay
+circletop	triangle.c	/^REAL circletop(m, pa, pb, pc, ccwabc)$/;"	f
+circletopcount	triangle.c	/^  long circletopcount;       \/* Number of circle top calculations performed. *\/$/;"	m	struct:mesh	file:
+circletopinsert	triangle.c	/^struct splaynode *circletopinsert(m, b, splayroot, newkey, pa, pb, pc, topy)$/;"	f
+circumcentercount	triangle.c	/^  long circumcentercount;  \/* Number of circumcenter calculations performed. *\/$/;"	m	struct:mesh	file:
+clockwiseseg	triangle.c	/^int clockwiseseg(struct mesh *m, struct osub *thissub, struct osub *nextsub) {$/;"	f
+cmp_iv	nnpi.c	/^static int cmp_iv(const void* p1, const void* p2)$/;"	f	file:
+compare_indexedpoints	nnpi.c	/^static int compare_indexedpoints(const void* pp1, const void* pp2)$/;"	f	file:
+compare_int	nnpi.c	/^static int compare_int(const void* p1, const void* p2)$/;"	f	file:
+conformingedge	triangle.c	/^void conformingedge(m, b, endpoint1, endpoint2, newmark)$/;"	f
+constrainededge	triangle.c	/^void constrainededge(m, b, starttri, endpoint2, newmark)$/;"	f
+convex	triangle.c	/^  int regionattrib, convex, weighted, jettison;$/;"	m	struct:behavior	file:
+copysign	config.h	4;"	d
+counterclockcount	triangle.c	/^  long counterclockcount;     \/* Number of counterclockwise tests performed. *\/$/;"	m	struct:mesh	file:
+counterclockwise	triangle.c	/^REAL counterclockwise(m, b, pa, pb, pc)$/;"	f
+counterclockwiseadapt	triangle.c	/^REAL counterclockwiseadapt(pa, pb, pc, detsum)$/;"	f
+counterclockwiseseg	triangle.c	/^int counterclockwiseseg(struct mesh *m, struct osub *thissub,$/;"	f
+cp	hash.c	/^    ht_keycp cp;$/;"	m	struct:hashtable	file:
+createeventheap	triangle.c	/^void createeventheap(m, eventheap, events, freeevents)$/;"	f
+d	lpi.c	/^    delaunay* d;$/;"	m	struct:lpi	file:
+d	nnai.c	/^    delaunay* d;$/;"	m	struct:nnai	file:
+d	nnpi.c	/^    delaunay* d;$/;"	m	struct:nnpi	file:
+d12	minell.c	/^    double d12;$/;"	m	struct:minell	file:
+d1cp	hash.c	/^static void* d1cp(void* key)$/;"	f	file:
+d1eq	hash.c	/^static int d1eq(void* key1, void* key2)$/;"	f	file:
+d1hash	hash.c	/^static unsigned int d1hash(void* key)$/;"	f	file:
+d23	minell.c	/^    double d23;$/;"	m	struct:minell	file:
+d2cp	hash.c	/^static void* d2cp(void* key)$/;"	f	file:
+d2eq	hash.c	/^static int d2eq(void* key1, void* key2)$/;"	f	file:
+d2hash	hash.c	/^static unsigned int d2hash(void* key)$/;"	f	file:
+d34	minell.c	/^    double d34;$/;"	m	struct:minell	file:
+d41	minell.c	/^    double d41;$/;"	m	struct:minell	file:
+data	hash.c	/^    void* data;$/;"	m	struct:ht_bucket	file:
+deaditemstack	triangle.c	/^  VOID *deaditemstack;$/;"	m	struct:memorypool	file:
+deadsubseg	triangle.c	1261;"	d	file:
+deadtri	triangle.c	1150;"	d	file:
+decode	triangle.c	945;"	d	file:
+delaunay	delaunay.h	/^struct delaunay {$/;"	s
+delaunay	delaunay.h	/^typedef struct delaunay delaunay;$/;"	t	typeref:struct:delaunay
+delaunay	nn.h	/^typedef struct delaunay delaunay;$/;"	t	typeref:struct:delaunay
+delaunay	triangle.c	/^long delaunay(m, b)$/;"	f
+delaunay_build	delaunay.c	/^delaunay* delaunay_build(int np, point points[], int ns, int segments[], int nh, double holes[])$/;"	f
+delaunay_circles_find	delaunay.c	/^void delaunay_circles_find(delaunay* d, point* p, int* n, int** out)$/;"	f
+delaunay_create	delaunay.c	/^static delaunay* delaunay_create()$/;"	f	file:
+delaunay_destroy	delaunay.c	/^void delaunay_destroy(delaunay* d)$/;"	f
+delaunay_xytoi	delaunay.c	/^int delaunay_xytoi(delaunay* d, point* p, int id)$/;"	f
+delaunayfixup	triangle.c	/^void delaunayfixup(m, b, fixuptri, leftside)$/;"	f
+deletevertex	triangle.c	/^void deletevertex(m, b, deltri)$/;"	f
+dequeuebadtriang	triangle.c	/^struct badtriang *dequeuebadtriang(m)$/;"	f
+dest	triangle.c	1073;"	d	file:
+dissolve	triangle.c	1099;"	d	file:
+distance	minell.c	/^static double distance(point* p1, point* p2)$/;"	f	file:
+divconqdelaunay	triangle.c	/^long divconqdelaunay(m, b)$/;"	f
+divconqrecurse	triangle.c	/^void divconqrecurse(m, b, sortarray, vertices, axis, farleft, farright)$/;"	f
+dnext	triangle.c	1019;"	d	file:
+dnextself	triangle.c	1023;"	d	file:
+docheck	triangle.c	/^  int docheck;$/;"	m	struct:behavior	file:
+dprev	triangle.c	1031;"	d	file:
+dprevself	triangle.c	1035;"	d	file:
+dummyinit	triangle.c	/^void dummyinit(m, b, trianglewords, subsegwords)$/;"	f
+dummysub	triangle.c	/^  subseg *dummysub;$/;"	m	struct:mesh	file:
+dummysubbase	triangle.c	/^  subseg *dummysubbase;      \/* Keep base address so we can free() it later. *\/$/;"	m	struct:mesh	file:
+dummytri	triangle.c	/^  triangle *dummytri;$/;"	m	struct:mesh	file:
+dummytribase	triangle.c	/^  triangle *dummytribase;    \/* Keep base address so we can free() it later. *\/$/;"	m	struct:mesh	file:
+dwyer	triangle.c	/^  int incremental, sweepline, dwyer;$/;"	m	struct:behavior	file:
+dx	nnpi.c	/^    double dx, dy;              \/* vertex perturbation *\/$/;"	m	struct:nnpi	file:
+dx12	minell.c	/^    double dx12;$/;"	m	struct:minell	file:
+dx23	minell.c	/^    double dx23;$/;"	m	struct:minell	file:
+dx34	minell.c	/^    double dx34;$/;"	m	struct:minell	file:
+dx41	minell.c	/^    double dx41;$/;"	m	struct:minell	file:
+dy	nnpi.c	/^    double dx, dy;              \/* vertex perturbation *\/$/;"	m	struct:nnpi	file:
+dy12	minell.c	/^    double dy12;$/;"	m	struct:minell	file:
+dy23	minell.c	/^    double dy23;$/;"	m	struct:minell	file:
+dy34	minell.c	/^    double dy34;$/;"	m	struct:minell	file:
+dy41	minell.c	/^    double dy41;$/;"	m	struct:minell	file:
+edgefilename	triangle.c	/^  char edgefilename[FILENAMESIZE];$/;"	m	struct:behavior	file:
+edgelist	triangle.h	/^  int *edgelist;                                                 \/* Out only *\/$/;"	m	struct:triangulateio
+edgemarkerlist	triangle.h	/^  int *edgemarkerlist;            \/* Not used with Voronoi diagram; out only *\/$/;"	m	struct:triangulateio
+edges	delaunay.h	/^    int* edges;                 \/* n-th edge is formed by points[edges[n*2]]$/;"	m	struct:delaunay
+edges	triangle.c	/^  long edges;                                     \/* Number of output edges. *\/$/;"	m	struct:mesh	file:
+edgesout	triangle.c	/^  int edgesout, voronoi, neighbors, geomview;$/;"	m	struct:behavior	file:
+eextras	triangle.c	/^  int eextras;                         \/* Number of attributes per triangle. *\/$/;"	m	struct:mesh	file:
+elemattribindex	triangle.c	/^  int elemattribindex;            \/* Index to find attributes of a triangle. *\/$/;"	m	struct:mesh	file:
+elemattribute	triangle.c	1132;"	d	file:
+encode	triangle.c	954;"	d	file:
+encsubseg	triangle.c	/^  subseg encsubseg;                             \/* An encroached subsegment. *\/$/;"	m	struct:badsubseg	file:
+enforcequality	triangle.c	/^void enforcequality(m, b)$/;"	f
+enqueuebadtri	triangle.c	/^void enqueuebadtri(m, b, enqtri, angle, enqapex, enqorg, enqdest)$/;"	f
+enqueuebadtriang	triangle.c	/^void enqueuebadtriang(m, b, badtri)$/;"	f
+epsilon	triangle.c	/^REAL epsilon;                             \/* Floating-point machine epsilon. *\/$/;"	v
+eq	hash.c	/^    ht_keyeq eq;$/;"	m	struct:hashtable	file:
+estimate	triangle.c	/^REAL estimate(elen, e)$/;"	f
+event	triangle.c	/^struct event {$/;"	s	file:
+eventheapdelete	triangle.c	/^void eventheapdelete(heap, heapsize, eventnum)$/;"	f
+eventheapify	triangle.c	/^void eventheapify(heap, heapsize, eventnum)$/;"	f
+eventheapinsert	triangle.c	/^void eventheapinsert(heap, heapsize, newevent)$/;"	f
+eventptr	triangle.c	/^  VOID *eventptr;      \/* Can be a vertex or the location of a circle event. *\/$/;"	m	struct:event	file:
+exactinit	triangle.c	/^void exactinit()$/;"	f
+exec_prefix	makefile	/^exec_prefix = ${prefix}$/;"	m
+f	preader.c	/^    FILE* f;$/;"	m	struct:__anon13	file:
+fast_expansion_sum_zeroelim	triangle.c	/^int fast_expansion_sum_zeroelim(elen, e, flen, f, h)  \/* h cannot be e or f. *\/$/;"	f
+fin	nnbathy.c	/^    char* fin;$/;"	m	struct:__anon7	file:
+findcircumcenter	triangle.c	/^void findcircumcenter(m, b, torg, tdest, tapex, circumcenter, xi, eta, minedge)$/;"	f
+finddirection	triangle.c	/^enum finddirectionresult finddirection(m, b, searchtri, searchpoint)$/;"	f
+finddirectionresult	triangle.c	/^enum finddirectionresult {WITHIN, LEFTCOLLINEAR, RIGHTCOLLINEAR};$/;"	g	file:
+findfield	triangle.c	/^char *findfield(string)$/;"	f
+finishfile	triangle.c	/^void finishfile(outfile, argc, argv)$/;"	f
+first_id	delaunay.h	/^    int first_id;               \/* last search result, used in start up of a$/;"	m	struct:delaunay
+firstblock	triangle.c	/^  VOID **firstblock, **nowblock;$/;"	m	struct:memorypool	file:
+firstnonemptyq	triangle.c	/^  int firstnonemptyq;$/;"	m	struct:mesh	file:
+firstnumber	triangle.c	/^  int firstnumber;$/;"	m	struct:behavior	file:
+fixedarea	triangle.c	/^  int poly, refine, quality, vararea, fixedarea, usertest;$/;"	m	struct:behavior	file:
+flags	delaunay.h	/^    int* flags;$/;"	m	struct:delaunay
+flip	triangle.c	/^void flip(m, b, flipedge)$/;"	f
+flippedtri	triangle.c	/^  triangle flippedtri;                       \/* A recently flipped triangle. *\/$/;"	m	struct:flipstacker	file:
+flipstacker	triangle.c	/^struct flipstacker {$/;"	s	file:
+flipstackers	triangle.c	/^  struct memorypool flipstackers;$/;"	m	struct:mesh	typeref:struct:mesh::memorypool	file:
+fname	preader.c	/^    char* fname;$/;"	m	struct:__anon13	file:
+fout	nnbathy.c	/^    char* fout;$/;"	m	struct:__anon7	file:
+franke	nnai.c	/^static double franke(double x, double y)$/;"	f	file:
+franke	nnpi.c	/^static double franke(double x, double y)$/;"	f	file:
+free_nn_weights	nnpi.c	/^static void free_nn_weights(void* data)$/;"	f	file:
+frontlocate	triangle.c	/^struct splaynode *frontlocate(m, splayroot, bottommost, searchvertex,$/;"	f
+g	preader.c	/^    grid* g;$/;"	m	struct:preader	file:
+gamma	minell.c	/^    double gamma;$/;"	m	struct:minell	file:
+generate_points	nnbathy.c	/^    int generate_points;$/;"	m	struct:__anon7	file:
+geomview	triangle.c	/^  int edgesout, voronoi, neighbors, geomview;$/;"	m	struct:behavior	file:
+getcorners	examples/2/viewinterp.m	/^function [c] = getcorners(x)$/;"	f
+getcorners	examples/4/viewinterp.m	/^function [c] = getcorners(x)$/;"	f
+getcorners	examples/5/viewinterp.m	/^function [c] = getcorners(x)$/;"	f
+getcorners	examples/6/viewinterp.m	/^function [c] = getcorners(x)$/;"	f
+getvertex	triangle.c	/^vertex getvertex(m, b, number)$/;"	f
+goodangle	triangle.c	/^  REAL minangle, goodangle;$/;"	m	struct:behavior	file:
+grid	preader.c	/^} grid;$/;"	t	typeref:struct:__anon14	file:
+grid_create	preader.c	/^static grid* grid_create(double xmin, double xmax, double ymin, double ymax, int nx, int ny)$/;"	f	file:
+grid_destroy	preader.c	/^static void grid_destroy(grid * g)$/;"	f	file:
+grid_getpoint	preader.c	/^static point* grid_getpoint(grid * g)$/;"	f	file:
+hash	hash.c	/^    ht_key2hash hash;$/;"	m	struct:hashtable	file:
+hashtable	hash.c	/^struct hashtable {$/;"	s	file:
+hashtable	hash.h	/^typedef struct hashtable hashtable;$/;"	t	typeref:struct:hashtable
+heapposition	triangle.c	/^  int heapposition;              \/* Marks this event's position in the heap. *\/$/;"	m	struct:event	file:
+highorder	triangle.c	/^void highorder(m, b)$/;"	f
+highorderindex	triangle.c	/^  int highorderindex;  \/* Index to find extra nodes for high-order elements. *\/$/;"	m	struct:mesh	file:
+holelist	triangle.h	/^  REAL *holelist;                        \/* In \/ pointer to array copied out *\/$/;"	m	struct:triangulateio
+holes	triangle.c	/^  int holes;                                       \/* Number of input holes. *\/$/;"	m	struct:mesh	file:
+ht_bucket	hash.c	/^typedef struct ht_bucket {$/;"	s	file:
+ht_bucket	hash.c	/^} ht_bucket;$/;"	t	typeref:struct:ht_bucket	file:
+ht_create	hash.c	/^hashtable* ht_create(int size, ht_keycp cp, ht_keyeq eq, ht_key2hash hash)$/;"	f
+ht_create_d1	hash.c	/^hashtable* ht_create_d1(int size)$/;"	f
+ht_create_d2	hash.c	/^hashtable* ht_create_d2(int size)$/;"	f
+ht_create_i1	hash.c	/^hashtable* ht_create_i1(int size)$/;"	f
+ht_create_i2	hash.c	/^hashtable* ht_create_i2(int size)$/;"	f
+ht_create_str	hash.c	/^hashtable* ht_create_str(int size)$/;"	f
+ht_data	nnpi.c	/^    hashtable* ht_data;$/;"	m	struct:nnhpi	file:
+ht_delete	hash.c	/^void* ht_delete(hashtable* table, void* key)$/;"	f
+ht_destroy	hash.c	/^void ht_destroy(hashtable* table)$/;"	f
+ht_find	hash.c	/^void* ht_find(hashtable* table, void* key)$/;"	f
+ht_getnentries	hash.c	/^int ht_getnentries(hashtable* table)$/;"	f
+ht_getnfilled	hash.c	/^int ht_getnfilled(hashtable* table)$/;"	f
+ht_getsize	hash.c	/^int ht_getsize(hashtable* table)$/;"	f
+ht_insert	hash.c	/^void* ht_insert(hashtable* table, void* key, void* data)$/;"	f
+ht_key2hash	hash.h	/^typedef unsigned int (*ht_key2hash) (void*);$/;"	t
+ht_keycp	hash.h	/^typedef void* (*ht_keycp) (void*);$/;"	t
+ht_keyeq	hash.h	/^typedef int (*ht_keyeq) (void*, void*);$/;"	t
+ht_process	hash.c	/^void ht_process(hashtable* table, void (*func) (void*))$/;"	f
+ht_weights	nnpi.c	/^    hashtable* ht_weights;$/;"	m	struct:nnhpi	file:
+hullsize	triangle.c	/^  long hullsize;                          \/* Number of edges in convex hull. *\/$/;"	m	struct:mesh	file:
+hyperbolacount	triangle.c	/^  long hyperbolacount;      \/* Number of right-of-hyperbola tests performed. *\/$/;"	m	struct:mesh	file:
+i	nnpi.c	/^    int i;$/;"	m	struct:__anon10	file:
+i	nnpi.c	/^    int i;$/;"	m	struct:__anon11	file:
+i1cp	hash.c	/^static void* i1cp(void* key)$/;"	f	file:
+i1eq	hash.c	/^static int i1eq(void* key1, void* key2)$/;"	f	file:
+i1hash	hash.c	/^static unsigned int i1hash(void* key)$/;"	f	file:
+i2cp	hash.c	/^static void* i2cp(void* key)$/;"	f	file:
+i2eq	hash.c	/^static int i2eq(void* key1, void* key2)$/;"	f	file:
+i2hash	hash.c	/^static unsigned int i2hash(void* key)$/;"	f	file:
+iccerrboundA	triangle.c	/^REAL iccerrboundA, iccerrboundB, iccerrboundC;$/;"	v
+iccerrboundB	triangle.c	/^REAL iccerrboundA, iccerrboundB, iccerrboundC;$/;"	v
+iccerrboundC	triangle.c	/^REAL iccerrboundA, iccerrboundB, iccerrboundC;$/;"	v
+id	hash.c	/^    int id;                     \/* unique id -- just in case *\/$/;"	m	struct:ht_bucket	file:
+incircle	triangle.c	/^REAL incircle(m, b, pa, pb, pc, pd)$/;"	f
+incircleadapt	triangle.c	/^REAL incircleadapt(pa, pb, pc, pd, permanent)$/;"	f
+incirclecount	triangle.c	/^  long incirclecount;                 \/* Number of incircle tests performed. *\/$/;"	m	struct:mesh	file:
+includedir	makefile	/^includedir = ${prefix}\/include$/;"	m
+incremental	triangle.c	/^  int incremental, sweepline, dwyer;$/;"	m	struct:behavior	file:
+incrementaldelaunay	triangle.c	/^long incrementaldelaunay(m, b)$/;"	f
+indexedpoint	nnpi.c	/^} indexedpoint;$/;"	t	typeref:struct:__anon10	file:
+indexedvalue	nnpi.c	/^} indexedvalue;$/;"	t	typeref:struct:__anon11	file:
+inelefilename	triangle.c	/^  char inelefilename[FILENAMESIZE];$/;"	m	struct:behavior	file:
+inelements	triangle.c	/^  int inelements;                              \/* Number of input triangles. *\/$/;"	m	struct:mesh	file:
+infect	triangle.c	1117;"	d	file:
+infected	triangle.c	1127;"	d	file:
+infecthull	triangle.c	/^void infecthull(m, b)$/;"	f
+info	triangle.c	/^void info()$/;"	f
+infvertex1	triangle.c	/^  vertex infvertex1, infvertex2, infvertex3;$/;"	m	struct:mesh	file:
+infvertex2	triangle.c	/^  vertex infvertex1, infvertex2, infvertex3;$/;"	m	struct:mesh	file:
+infvertex3	triangle.c	/^  vertex infvertex1, infvertex2, infvertex3;$/;"	m	struct:mesh	file:
+initializetrisubpools	triangle.c	/^void initializetrisubpools(m, b)$/;"	f
+initializevertexpool	triangle.c	/^void initializevertexpool(m, b)$/;"	f
+innodefilename	triangle.c	/^  char innodefilename[FILENAMESIZE];$/;"	m	struct:behavior	file:
+inpolyfilename	triangle.c	/^  char inpolyfilename[FILENAMESIZE];$/;"	m	struct:behavior	file:
+insegments	triangle.c	/^  int insegments;                               \/* Number of input segments. *\/$/;"	m	struct:mesh	file:
+insertsegment	triangle.c	/^void insertsegment(m, b, endpoint1, endpoint2, newmark)$/;"	f
+insertsubseg	triangle.c	/^void insertsubseg(m, b, tri, subsegmark)$/;"	f
+insertvertex	triangle.c	/^enum insertvertexresult insertvertex(m, b, newvertex, searchtri, splitseg,$/;"	f
+insertvertexresult	triangle.c	/^enum insertvertexresult {SUCCESSFULVERTEX, ENCROACHINGVERTEX, VIOLATINGVERTEX,$/;"	g	file:
+internalerror	triangle.c	/^void internalerror()$/;"	f
+invariant	nnbathy.c	/^    int invariant;$/;"	m	struct:__anon7	file:
+invertices	triangle.c	/^  int invertices;                               \/* Number of input vertices. *\/$/;"	m	struct:mesh	file:
+isellipse	minell.c	/^static int isellipse(minell* me, point* p)$/;"	f	file:
+isnan	config.h	3;"	d
+istack	delaunay.h	/^typedef struct istack istack;$/;"	t	typeref:struct:istack
+istack	istack.h	/^struct istack {$/;"	s
+istack	istack.h	/^typedef struct istack istack;$/;"	t	typeref:struct:istack
+istack_contains	istack.c	/^int istack_contains(istack* s, int v)$/;"	f
+istack_create	istack.c	/^istack* istack_create(void)$/;"	f
+istack_destroy	istack.c	/^void istack_destroy(istack* s)$/;"	f
+istack_getentries	istack.c	/^int* istack_getentries(istack* s)$/;"	f
+istack_getnentries	istack.c	/^int istack_getnentries(istack* s)$/;"	f
+istack_pop	istack.c	/^int istack_pop(istack* s)$/;"	f
+istack_push	istack.c	/^void istack_push(istack* s, int v)$/;"	f
+istack_reset	istack.c	/^void istack_reset(istack* s)$/;"	f
+itembytes	triangle.c	/^  int itembytes, itemwords;$/;"	m	struct:memorypool	file:
+items	triangle.c	/^  long items, maxitems;$/;"	m	struct:memorypool	file:
+itemsperblock	triangle.c	/^  int itemsperblock;$/;"	m	struct:memorypool	file:
+itemwords	triangle.c	/^  int itembytes, itemwords;$/;"	m	struct:memorypool	file:
+itemwordtype	triangle.c	/^  enum wordtype itemwordtype;$/;"	m	struct:memorypool	typeref:enum:memorypool::wordtype	file:
+jettison	triangle.c	/^  int regionattrib, convex, weighted, jettison;$/;"	m	struct:behavior	file:
+key	hash.c	/^    void* key;$/;"	m	struct:ht_bucket	file:
+key	triangle.c	/^  REAL key;                             \/* cos^2 of smallest (apical) angle. *\/$/;"	m	struct:badtriang	file:
+keydest	triangle.c	/^  vertex keydest;           \/* Used to verify that splay node is still live. *\/$/;"	m	struct:splaynode	file:
+keyedge	triangle.c	/^  struct otri keyedge;                     \/* Lprev of an edge on the front. *\/$/;"	m	struct:splaynode	typeref:struct:splaynode::otri	file:
+killsubseg	triangle.c	1263;"	d	file:
+killtri	triangle.c	1152;"	d	file:
+lNaN	nan.h	/^static const long long lNaN = ((unsigned long long) 1 << 63) - 1;$/;"	v
+lNaN	nan.h	/^static unsigned _int64 lNaN = ((unsigned _int64) 1 << 63) - 1;$/;"	v
+lambda0	minell.c	/^    double lambda0;$/;"	m	struct:minell	file:
+lastflip	triangle.c	/^  struct flipstacker *lastflip;$/;"	m	struct:mesh	typeref:struct:mesh::flipstacker	file:
+lchild	triangle.c	/^  struct splaynode *lchild, *rchild;              \/* Children in splay tree. *\/$/;"	m	struct:splaynode	typeref:struct:splaynode::splaynode	file:
+libdir	makefile	/^libdir = \/usr\/local\/lib$/;"	m
+linear	nnbathy.c	/^    int linear;$/;"	m	struct:__anon7	file:
+lnext	triangle.c	975;"	d	file:
+lnextself	triangle.c	979;"	d	file:
+locate	triangle.c	/^enum locateresult locate(m, b, searchpoint, searchtri)$/;"	f
+locateresult	triangle.c	/^enum locateresult {INTRIANGLE, ONEDGE, ONVERTEX, OUTSIDE};$/;"	g	file:
+lpi	lpi.c	/^struct lpi {$/;"	s	file:
+lpi	nn.h	/^typedef struct lpi lpi;$/;"	t	typeref:struct:lpi
+lpi_build	lpi.c	/^lpi* lpi_build(delaunay* d)$/;"	f
+lpi_destroy	lpi.c	/^void lpi_destroy(lpi* l)$/;"	f
+lpi_interpolate_point	lpi.c	/^void lpi_interpolate_point(lpi* l, point* p)$/;"	f
+lpi_interpolate_points	lpi.c	/^void lpi_interpolate_points(int nin, point pin[], int nout, point pout[])$/;"	f
+lprev	triangle.c	984;"	d	file:
+lprevself	triangle.c	988;"	d	file:
+lweights	lpi.c	/^} lweights;$/;"	t	typeref:struct:__anon4	file:
+main	hash.c	/^int main()$/;"	f
+main	minell.c	/^int main(int argc, char* argv[])$/;"	f
+main	nnai.c	/^int main(int argc, char* argv[])$/;"	f
+main	nnbathy.c	/^int main(int argc, char* argv[])$/;"	f
+main	nnpi.c	/^int main(int argc, char* argv[])$/;"	f
+makesubseg	triangle.c	/^void makesubseg(m, newsubseg)$/;"	f
+maketriangle	triangle.c	/^void maketriangle(m, b, newotri)$/;"	f
+makevertexmap	triangle.c	/^void makevertexmap(m, b)$/;"	f
+mark	triangle.c	1227;"	d	file:
+markhull	triangle.c	/^void markhull(m, b)$/;"	f
+maxarea	triangle.c	/^  REAL maxarea;$/;"	m	struct:behavior	file:
+maxitems	triangle.c	/^  long items, maxitems;$/;"	m	struct:memorypool	file:
+me_classic	minell.c	/^static int me_classic = 0;$/;"	v	file:
+me_seed	minell.c	/^static int me_seed = 1;$/;"	v	file:
+me_verbose	minell.c	/^static int me_verbose = 0;$/;"	v	file:
+memorypool	triangle.c	/^struct memorypool {$/;"	s	file:
+mergehulls	triangle.c	/^void mergehulls(m, b, farleft, innerleft, innerright, farright, axis)$/;"	f
+mesh	triangle.c	/^struct mesh {$/;"	s	file:
+mesh_dim	triangle.c	/^  int mesh_dim;                                \/* Dimension (ought to be 2). *\/$/;"	m	struct:mesh	file:
+minangle	triangle.c	/^  REAL minangle, goodangle;$/;"	m	struct:behavior	file:
+minell	minell.c	/^struct minell {$/;"	s	file:
+minell	minell.h	/^typedef struct minell minell;$/;"	t	typeref:struct:minell
+minell_build	minell.c	/^minell* minell_build(int n, point p[])$/;"	f
+minell_calc	minell.c	/^static void minell_calc(minell* me, int n, point* points[])$/;"	f	file:
+minell_calc3	minell.c	/^static void minell_calc3(minell* me)$/;"	f	file:
+minell_calc3_count	minell.c	/^    int minell_calc3_count;$/;"	m	struct:minell	file:
+minell_calc4	minell.c	/^static void minell_calc4(minell* me)$/;"	f	file:
+minell_calc4_count	minell.c	/^    int minell_calc4_count;$/;"	m	struct:minell	file:
+minell_calc5_count	minell.c	/^    int minell_calc5_count;$/;"	m	struct:minell	file:
+minell_calc_count	minell.c	/^    int minell_calc_count;$/;"	m	struct:minell	file:
+minell_calc_welzl	minell.c	/^static void minell_calc_welzl(minell* me, int n, point* points[], int nb, point* pointsb[])$/;"	f	file:
+minell_calcb	minell.c	/^static void minell_calcb(minell* me, int nb, point* pointsb[])$/;"	f	file:
+minell_calcinsideeval	minell.c	/^static double minell_calcinsideeval(minell* me)$/;"	f	file:
+minell_calcprm	minell.c	/^static void minell_calcprm(minell* me)$/;"	f	file:
+minell_containspoint	minell.c	/^static int minell_containspoint(minell* me, point* p)$/;"	f	file:
+minell_create	minell.c	/^static minell* minell_create(void)$/;"	f	file:
+minell_destroy	minell.c	/^void minell_destroy(minell* me)$/;"	f
+minell_eval3_count	minell.c	/^    int minell_eval3_count;$/;"	m	struct:minell	file:
+minell_eval4_count	minell.c	/^    int minell_eval4_count;$/;"	m	struct:minell	file:
+minell_eval5_count	minell.c	/^    int minell_eval5_count;$/;"	m	struct:minell	file:
+minell_findfifthpoint	minell.c	/^static void minell_findfifthpoint(minell* me)$/;"	f	file:
+minell_info	minell.c	/^static void minell_info(minell* me, FILE* f)$/;"	f	file:
+minell_npoints	minell.c	/^    int minell_npoints;$/;"	m	struct:minell	file:
+minell_quit	minell.c	/^static void minell_quit(char* format, ...)$/;"	f	file:
+minell_rescalepoints	minell.c	/^void minell_rescalepoints(minell* me, int n, point points[])$/;"	f
+minell_scalepoints	minell.c	/^void minell_scalepoints(minell* me, int n, point points[])$/;"	f
+minell_stats	minell.c	/^static void minell_stats(minell* me, FILE* f)$/;"	f	file:
+minus1mod3	triangle.c	/^int minus1mod3[3] = {2, 0, 1};$/;"	v
+mu0	minell.c	/^    double mu0;$/;"	m	struct:minell	file:
+n	hash.c	/^    int n;                      \/* current number of entries *\/$/;"	m	struct:hashtable	file:
+n	istack.h	/^    int n;$/;"	m	struct:istack
+n	minell.c	/^    int n;$/;"	m	struct:minell	file:
+n	nnai.c	/^    double n;                   \/* number of output points *\/$/;"	m	struct:nnai	file:
+n	nnpi.c	/^    int n;                      \/* number of points processed *\/$/;"	m	struct:nnhpi	file:
+n	nnpi.c	/^    int n;                      \/* number of points processed *\/$/;"	m	struct:nnpi	file:
+n	preader.c	/^    int n;$/;"	m	struct:__anon13	file:
+n	preader.c	/^    int n;$/;"	m	struct:__anon14	file:
+n_point_triangles	delaunay.h	/^    int* n_point_triangles;     \/* n_point_triangles[i] is number of$/;"	m	struct:delaunay
+naccum	hash.c	/^    int naccum;                 \/* number of inserted entries *\/$/;"	m	struct:hashtable	file:
+nallocated	istack.h	/^    int nallocated;$/;"	m	struct:istack
+nallocated	nnpi.c	/^    int nallocated;$/;"	m	struct:nnpi	file:
+ncircles	nnpi.c	/^    int ncircles;$/;"	m	struct:nnpi	file:
+nedges	delaunay.h	/^    int nedges;$/;"	m	struct:delaunay
+neighborfilename	triangle.c	/^  char neighborfilename[FILENAMESIZE];$/;"	m	struct:behavior	file:
+neighborlist	triangle.h	/^  int *neighborlist;                                             \/* Out only *\/$/;"	m	struct:triangulateio
+neighbors	triangle.c	/^  int edgesout, voronoi, neighbors, geomview;$/;"	m	struct:behavior	file:
+neighbours	delaunay.h	/^    triangle_neighbours* neighbours;    \/* for delaunay_xytoi() *\/$/;"	m	struct:delaunay
+next	hash.c	/^    struct ht_bucket* next;$/;"	m	struct:ht_bucket	typeref:struct:ht_bucket::ht_bucket	file:
+nextitem	triangle.c	/^  VOID *nextitem;$/;"	m	struct:memorypool	file:
+nextnonemptyq	triangle.c	/^  int nextnonemptyq[64];$/;"	m	struct:mesh	file:
+nextras	triangle.c	/^  int nextras;                           \/* Number of attributes per vertex. *\/$/;"	m	struct:mesh	file:
+nexttriang	triangle.c	/^  struct badtriang *nexttriang;             \/* Pointer to next bad triangle. *\/$/;"	m	struct:badtriang	typeref:struct:badtriang::badtriang	file:
+nhash	hash.c	/^    int nhash;                  \/* number of used table elements *\/$/;"	m	struct:hashtable	file:
+nmax	preader.c	/^    int nmax;$/;"	m	struct:__anon14	file:
+nn_quit	nncommon.c	/^void nn_quit(char* format, ...)$/;"	f
+nn_rule	nncommon.c	/^NN_RULE nn_rule = SIBSON;$/;"	v
+nn_test_vertice	nncommon.c	/^int nn_test_vertice = -1;$/;"	v
+nn_verbose	nncommon.c	/^int nn_verbose = 0;$/;"	v
+nn_version	version.h	/^char* nn_version = "1.71";$/;"	v
+nn_weights	nnai.c	/^} nn_weights;$/;"	t	typeref:struct:__anon6	file:
+nn_weights	nnpi.c	/^} nn_weights;$/;"	t	typeref:struct:__anon12	file:
+nnai	nn.h	/^typedef struct nnai nnai;$/;"	t	typeref:struct:nnai
+nnai	nnai.c	/^struct nnai {$/;"	s	file:
+nnai_build	nnai.c	/^nnai* nnai_build(delaunay* d, int n, double* x, double* y)$/;"	f
+nnai_destroy	nnai.c	/^void nnai_destroy(nnai* nn)$/;"	f
+nnai_interpolate	nnai.c	/^void nnai_interpolate(nnai* nn, double* zin, double* zout)$/;"	f
+nnai_setwmin	nnai.c	/^void nnai_setwmin(nnai* nn, double wmin)$/;"	f
+nnhpi	nn.h	/^typedef struct nnhpi nnhpi;$/;"	t	typeref:struct:nnhpi
+nnhpi	nnpi.c	/^struct nnhpi {$/;"	s	file:
+nnhpi_create	nnpi.c	/^nnhpi* nnhpi_create(delaunay* d, int size)$/;"	f
+nnhpi_destroy	nnpi.c	/^void nnhpi_destroy(nnhpi* nn)$/;"	f
+nnhpi_interpolate	nnpi.c	/^void nnhpi_interpolate(nnhpi* nnhpi, point* p)$/;"	f
+nnhpi_modify_data	nnpi.c	/^void nnhpi_modify_data(nnhpi* nnhpi, point* p)$/;"	f
+nnhpi_setwmin	nnpi.c	/^void nnhpi_setwmin(nnhpi* nn, double wmin)$/;"	f
+nnpi	nn.h	/^typedef struct nnpi nnpi;$/;"	t	typeref:struct:nnpi
+nnpi	nnpi.c	/^    nnpi* nnpi;$/;"	m	struct:nnhpi	file:
+nnpi	nnpi.c	/^struct nnpi {$/;"	s	file:
+nnpi_add_weight	nnpi.c	/^static void nnpi_add_weight(nnpi* nn, int vertex, double w)$/;"	f	file:
+nnpi_calculate_weights	nnpi.c	/^void nnpi_calculate_weights(nnpi* nn, point* p)$/;"	f
+nnpi_create	nnpi.c	/^nnpi* nnpi_create(delaunay* d)$/;"	f
+nnpi_destroy	nnpi.c	/^void nnpi_destroy(nnpi* nn)$/;"	f
+nnpi_get_nvertices	nnpi.c	/^int nnpi_get_nvertices(nnpi* nn)$/;"	f
+nnpi_get_vertices	nnpi.c	/^int* nnpi_get_vertices(nnpi* nn)$/;"	f
+nnpi_get_weights	nnpi.c	/^double* nnpi_get_weights(nnpi* nn)$/;"	f
+nnpi_getneighbours	nnpi.c	/^static void nnpi_getneighbours(nnpi* nn, point* p, int nt, int* tids, int* n, int** nids)$/;"	f	file:
+nnpi_interpolate_point	nnpi.c	/^void nnpi_interpolate_point(nnpi* nn, point* p)$/;"	f
+nnpi_interpolate_points	nnpi.c	/^void nnpi_interpolate_points(int nin, point pin[], double wmin, int nout, point pout[])$/;"	f
+nnpi_neighbours_process	nnpi.c	/^static int nnpi_neighbours_process(nnpi* nn, point* p, int n, int* nids)$/;"	f	file:
+nnpi_normalize_weights	nnpi.c	/^static void nnpi_normalize_weights(nnpi* nn)$/;"	f	file:
+nnpi_reset	nnpi.c	/^void nnpi_reset(nnpi* nn)$/;"	f
+nnpi_setwmin	nnpi.c	/^void nnpi_setwmin(nnpi* nn, double wmin)$/;"	f
+nnpi_triangle_process	nnpi.c	/^static void nnpi_triangle_process(nnpi* nn, point* p, int i)$/;"	f	file:
+nobisect	triangle.c	/^  int nobisect;$/;"	m	struct:behavior	file:
+nobound	triangle.c	/^  int nobound, nopolywritten, nonodewritten, noelewritten, noiterationnum;$/;"	m	struct:behavior	file:
+noelewritten	triangle.c	/^  int nobound, nopolywritten, nonodewritten, noelewritten, noiterationnum;$/;"	m	struct:behavior	file:
+noexact	triangle.c	/^  int noholes, noexact, nolenses;$/;"	m	struct:behavior	file:
+noholes	triangle.c	/^  int noholes, noexact, nolenses;$/;"	m	struct:behavior	file:
+nointerp	nnbathy.c	/^    int nointerp;$/;"	m	struct:__anon7	file:
+noiterationnum	triangle.c	/^  int nobound, nopolywritten, nonodewritten, noelewritten, noiterationnum;$/;"	m	struct:behavior	file:
+nolenses	triangle.c	/^  int noholes, noexact, nolenses;$/;"	m	struct:behavior	file:
+nonodewritten	triangle.c	/^  int nobound, nopolywritten, nonodewritten, noelewritten, noiterationnum;$/;"	m	struct:behavior	file:
+nonregular	triangle.c	/^REAL nonregular(m, b, pa, pb, pc, pd)$/;"	f
+nopolywritten	triangle.c	/^  int nobound, nopolywritten, nonodewritten, noelewritten, noiterationnum;$/;"	m	struct:behavior	file:
+normlist	triangle.h	/^  REAL *normlist;                \/* Used only with Voronoi diagram; out only *\/$/;"	m	struct:triangulateio
+nowblock	triangle.c	/^  VOID **firstblock, **nowblock;$/;"	m	struct:memorypool	file:
+npoints	delaunay.h	/^    int npoints;$/;"	m	struct:delaunay
+npoints	nnbathy.c	/^    int npoints;$/;"	m	struct:__anon7	file:
+nprev	minell.c	/^    int nprev;$/;"	m	struct:minell	file:
+ntriangles	delaunay.h	/^    int ntriangles;$/;"	m	struct:delaunay
+numbernodes	triangle.c	/^void numbernodes(m, b)$/;"	f
+numberofcorners	triangle.h	/^  int numberofcorners;                                           \/* In \/ out *\/$/;"	m	struct:triangulateio
+numberofedges	triangle.h	/^  int numberofedges;                                             \/* Out only *\/$/;"	m	struct:triangulateio
+numberofholes	triangle.h	/^  int numberofholes;                                      \/* In \/ copied out *\/$/;"	m	struct:triangulateio
+numberofpointattributes	triangle.h	/^  int numberofpointattributes;                                   \/* In \/ out *\/$/;"	m	struct:triangulateio
+numberofpoints	triangle.h	/^  int numberofpoints;                                            \/* In \/ out *\/$/;"	m	struct:triangulateio
+numberofregions	triangle.h	/^  int numberofregions;                                    \/* In \/ copied out *\/$/;"	m	struct:triangulateio
+numberofsegments	triangle.h	/^  int numberofsegments;                                          \/* In \/ out *\/$/;"	m	struct:triangulateio
+numberoftriangleattributes	triangle.h	/^  int numberoftriangleattributes;                                \/* In \/ out *\/$/;"	m	struct:triangulateio
+numberoftriangles	triangle.h	/^  int numberoftriangles;                                         \/* In \/ out *\/$/;"	m	struct:triangulateio
+nvertices	nnai.c	/^    int nvertices;$/;"	m	struct:__anon6	file:
+nvertices	nnpi.c	/^    int nvertices;$/;"	m	struct:__anon12	file:
+nvertices	nnpi.c	/^    int nvertices;$/;"	m	struct:nnpi	file:
+nx	nnbathy.c	/^    int nx;$/;"	m	struct:__anon7	file:
+nx	preader.c	/^    int nx;$/;"	m	struct:__anon14	file:
+nxd	nnbathy.c	/^    int nxd;$/;"	m	struct:__anon7	file:
+ny	nnbathy.c	/^    int ny;$/;"	m	struct:__anon7	file:
+ny	preader.c	/^    int ny;$/;"	m	struct:__anon14	file:
+nyd	nnbathy.c	/^    int nyd;$/;"	m	struct:__anon7	file:
+o3derrboundA	triangle.c	/^REAL o3derrboundA, o3derrboundB, o3derrboundC;$/;"	v
+o3derrboundB	triangle.c	/^REAL o3derrboundA, o3derrboundB, o3derrboundC;$/;"	v
+o3derrboundC	triangle.c	/^REAL o3derrboundA, o3derrboundB, o3derrboundC;$/;"	v
+offfilename	triangle.c	/^  char offfilename[FILENAMESIZE];$/;"	m	struct:behavior	file:
+onext	triangle.c	995;"	d	file:
+onextself	triangle.c	999;"	d	file:
+onleftside	minell.c	/^static int onleftside(point* p, point* p0, point* p1)$/;"	f	file:
+onleftside	nnpi.c	/^static int onleftside(point* p, point* p0, point* p1)$/;"	f	file:
+onrightside	delaunay.c	/^static int onrightside(point* p, point* p0, point* p1)$/;"	f	file:
+oprev	triangle.c	1007;"	d	file:
+oprevself	triangle.c	1011;"	d	file:
+order	triangle.c	/^  int order;$/;"	m	struct:behavior	file:
+org	triangle.c	1070;"	d	file:
+orient	triangle.c	/^  int orient;                                         \/* Ranges from 0 to 2. *\/$/;"	m	struct:otri	file:
+orient3d	triangle.c	/^REAL orient3d(m, b, pa, pb, pc, pd, aheight, bheight, cheight, dheight)$/;"	f
+orient3dadapt	triangle.c	/^REAL orient3dadapt(pa, pb, pc, pd,$/;"	f
+orient3dcount	triangle.c	/^  long orient3dcount;           \/* Number of 3D orientation tests performed. *\/$/;"	m	struct:mesh	file:
+osub	triangle.c	/^struct osub {$/;"	s	file:
+otri	triangle.c	/^struct otri {$/;"	s	file:
+otricopy	triangle.c	1104;"	d	file:
+otriequal	triangle.c	1110;"	d	file:
+outelefilename	triangle.c	/^  char outelefilename[FILENAMESIZE];$/;"	m	struct:behavior	file:
+outnodefilename	triangle.c	/^  char outnodefilename[FILENAMESIZE];$/;"	m	struct:behavior	file:
+outpolyfilename	triangle.c	/^  char outpolyfilename[FILENAMESIZE];$/;"	m	struct:behavior	file:
+p	nnpi.c	/^    point* p;$/;"	m	struct:__anon10	file:
+p	preader.c	/^    point p;$/;"	m	struct:__anon13	file:
+p	preader.c	/^    point p;$/;"	m	struct:__anon14	file:
+p0	nnpi.c	/^    point* p0;$/;"	m	struct:__anon10	file:
+p1	nnpi.c	/^    point* p1;$/;"	m	struct:__anon10	file:
+parse_commandline	minell.c	/^static void parse_commandline(int argc, char* argv[], char** fname)$/;"	f	file:
+parse_commandline	nnbathy.c	/^static void parse_commandline(int argc, char* argv[], specs * s)$/;"	f	file:
+parsecommandline	triangle.c	/^void parsecommandline(argc, argv, b)$/;"	f
+pathblock	triangle.c	/^  VOID **pathblock;$/;"	m	struct:memorypool	file:
+pathitem	triangle.c	/^  VOID *pathitem;$/;"	m	struct:memorypool	file:
+pathitemsleft	triangle.c	/^  int pathitemsleft;$/;"	m	struct:memorypool	file:
+pcolor_ps	examples/2/viewinterp.m	/^function [h] = pcolor_ps(x, y, A);$/;"	f
+pcolor_ps	examples/4/viewinterp.m	/^function [h] = pcolor_ps(x, y, A);$/;"	f
+pcolor_ps	examples/5/viewinterp.m	/^function [h] = pcolor_ps(x, y, A);$/;"	f
+pcolor_ps	examples/6/viewinterp.m	/^function [h] = pcolor_ps(x, y, A);$/;"	f
+plague	triangle.c	/^void plague(m, b)$/;"	f
+plus1mod3	triangle.c	/^int plus1mod3[3] = {1, 2, 0};$/;"	v
+point	minell.h	/^} point;$/;"	t	typeref:struct:__anon5
+point	nn.h	/^} point;$/;"	t	typeref:struct:__anon9
+point_triangles	delaunay.h	/^    int** point_triangles;      \/* point_triangles[i][j] is index of j-th$/;"	m	struct:delaunay
+pointattributelist	triangle.h	/^  REAL *pointattributelist;                                      \/* In \/ out *\/$/;"	m	struct:triangulateio
+pointlist	triangle.h	/^  REAL *pointlist;                                               \/* In \/ out *\/$/;"	m	struct:triangulateio
+pointmarkerlist	triangle.h	/^  int *pointmarkerlist;                                          \/* In \/ out *\/$/;"	m	struct:triangulateio
+points	delaunay.h	/^    point* points;$/;"	m	struct:delaunay
+points	minell.c	/^    point* points[5];$/;"	m	struct:minell	file:
+points_generate	nncommon.c	/^void points_generate(double xmin, double xmax, double ymin, double ymax, int nx, int ny, int* nout, point** pout)$/;"	f
+points_getrange	nncommon.c	/^void points_getrange(int n, point points[], double zoom, double* xmin, double* xmax, double* ymin, double* ymax)$/;"	f
+points_makeccw	minell.c	/^static void points_makeccw(int n, point* points[])$/;"	f	file:
+points_movelasttofront	minell.c	/^static void points_movelasttofront(point** points, int n)$/;"	f	file:
+points_read	minell.c	/^static void points_read(char* fname, int dim, int* n, point** points)$/;"	f	file:
+points_read	nncommon.c	/^void points_read(char* fname, int dim, int* n, point** points)$/;"	f
+points_scale	nncommon.c	/^void points_scale(int n, point* points, double k)$/;"	f
+points_scaletosquare	nncommon.c	/^double points_scaletosquare(int n, point* points)$/;"	f
+points_shuffle	minell.c	/^static point** points_shuffle(int n, point* p)$/;"	f	file:
+points_thingrid	nncommon.c	/^void points_thingrid(int* pn, point** ppoints, int nx, int ny)$/;"	f
+points_thinlin	nncommon.c	/^void points_thinlin(int* nin, point** pin, double rmax)$/;"	f
+points_write	nnbathy.c	/^static void points_write(int n, point* points)$/;"	f	file:
+poly	triangle.c	/^  int poly, refine, quality, vararea, fixedarea, usertest;$/;"	m	struct:behavior	file:
+poolalloc	triangle.c	/^VOID *poolalloc(pool)$/;"	f
+pooldealloc	triangle.c	/^void pooldealloc(pool, dyingitem)$/;"	f
+pooldeinit	triangle.c	/^void pooldeinit(pool)$/;"	f
+poolinit	triangle.c	/^void poolinit(pool, bytecount, itemcount, wtype, alignment)$/;"	f
+poolrestart	triangle.c	/^void poolrestart(pool)$/;"	f
+poortri	triangle.c	/^  triangle poortri;                       \/* A skinny or too-large triangle. *\/$/;"	m	struct:badtriang	file:
+preader	preader.c	/^struct preader {$/;"	s	file:
+preader	preader.h	/^typedef struct preader preader;$/;"	t	typeref:struct:preader
+preader_create1	preader.c	/^preader* preader_create1(double xmin, double xmax, double ymin, double ymax, int nx, int ny)$/;"	f
+preader_create2	preader.c	/^preader* preader_create2(char* fname)$/;"	f
+preader_destroy	preader.c	/^void preader_destroy(preader * pr)$/;"	f
+preader_getpoint	preader.c	/^point* preader_getpoint(preader * pr)$/;"	f
+preciselocate	triangle.c	/^enum locateresult preciselocate(m, b, searchpoint, searchtri, stopatsubsegment)$/;"	f
+precisionerror	triangle.c	/^void precisionerror()$/;"	f
+prefix	makefile	/^prefix = \/usr\/local$/;"	m
+prevflip	triangle.c	/^  struct flipstacker *prevflip;               \/* Previous flip in the stack. *\/$/;"	m	struct:flipstacker	typeref:struct:flipstacker::flipstacker	file:
+print_double	hash.c	/^static void print_double(void* data)$/;"	f	file:
+print_string	hash.c	/^static void print_string(void* data)$/;"	f	file:
+printsubseg	triangle.c	/^void printsubseg(m, b, s)$/;"	f
+printtriangle	triangle.c	/^void printtriangle(m, b, t)$/;"	f
+prototypes	configure	/^   function prototypes and stuff, but not '\\xHH' hex character constants.$/;"	f
+quality	triangle.c	/^  int poly, refine, quality, vararea, fixedarea, usertest;$/;"	m	struct:behavior	file:
+quality_statistics	triangle.c	/^void quality_statistics(m, b)$/;"	f
+queuefront	triangle.c	/^  struct badtriang *queuefront[64];$/;"	m	struct:mesh	typeref:struct:mesh::badtriang	file:
+queuetail	triangle.c	/^  struct badtriang *queuetail[64];$/;"	m	struct:mesh	typeref:struct:mesh::badtriang	file:
+quiet	triangle.c	/^  int quiet, verbose;$/;"	m	struct:behavior	file:
+quit	nnbathy.c	/^static void quit(char* format, ...)$/;"	f	file:
+r	delaunay.h	/^    double r;$/;"	m	struct:__anon3
+r	minell.c	/^    double r;$/;"	m	struct:minell	file:
+r	preader.c	/^    reader* r;$/;"	m	struct:preader	file:
+r1	minell.c	/^    double r1;$/;"	m	struct:minell	file:
+r2	minell.c	/^    double r2;$/;"	m	struct:minell	file:
+random	examples/1/generate.awk	/^function random()$/;"	f
+random	examples/3/generate-data.awk	/^function random()$/;"	f
+randomnation	triangle.c	/^unsigned long randomnation(choices)$/;"	f
+randomseed	triangle.c	/^unsigned long randomseed;                     \/* Current random number seed. *\/$/;"	v
+rchild	triangle.c	/^  struct splaynode *lchild, *rchild;              \/* Children in splay tree. *\/$/;"	m	struct:splaynode	typeref:struct:splaynode::	file:
+reader	preader.c	/^} reader;$/;"	t	typeref:struct:__anon13	file:
+reader_create	preader.c	/^static reader* reader_create(char* fname)$/;"	f	file:
+reader_destroy	preader.c	/^static void reader_destroy(reader * r)$/;"	f	file:
+reader_getpoint	preader.c	/^static point* reader_getpoint(reader * r)$/;"	f	file:
+readholes	triangle.c	/^void readholes(m, b, polyfile, polyfilename, hlist, holes, rlist, regions)$/;"	f
+readline	triangle.c	/^char *readline(string, infile, infilename)$/;"	f
+readnodefile	triangle.c	/^  int readnodefile;                           \/* Has a .node file been read? *\/$/;"	m	struct:mesh	file:
+readnodes	triangle.c	/^void readnodes(m, b, nodefilename, polyfilename, polyfile)$/;"	f
+recenttri	triangle.c	/^  struct otri recenttri;$/;"	m	struct:mesh	typeref:struct:mesh::otri	file:
+refine	triangle.c	/^  int poly, refine, quality, vararea, fixedarea, usertest;$/;"	m	struct:behavior	file:
+regionattrib	triangle.c	/^  int regionattrib, convex, weighted, jettison;$/;"	m	struct:behavior	file:
+regionlist	triangle.h	/^  REAL *regionlist;                      \/* In \/ pointer to array copied out *\/$/;"	m	struct:triangulateio
+regionplague	triangle.c	/^void regionplague(m, b, attribute, area)$/;"	f
+regions	triangle.c	/^  int regions;                                   \/* Number of input regions. *\/$/;"	m	struct:mesh	file:
+removebox	triangle.c	/^long removebox(m, b)$/;"	f
+removeghosts	triangle.c	/^long removeghosts(m, b, startghost)$/;"	f
+resulterrbound	triangle.c	/^REAL resulterrbound;$/;"	v
+rightofhyperbola	triangle.c	/^int rightofhyperbola(m, fronttri, newsite)$/;"	f
+rint	config.h	5;"	d
+rmax	nnbathy.c	/^    double rmax;$/;"	m	struct:__anon7	file:
+rnext	triangle.c	1043;"	d	file:
+rnextself	triangle.c	1048;"	d	file:
+rprev	triangle.c	1057;"	d	file:
+rprevself	triangle.c	1062;"	d	file:
+s	minell.c	/^    double s;$/;"	m	struct:minell	file:
+s1	minell.c	/^    double s1;$/;"	m	struct:minell	file:
+s2	minell.c	/^    double s2;$/;"	m	struct:minell	file:
+samples	triangle.c	/^  long samples;              \/* Number of random samples for point location. *\/$/;"	m	struct:mesh	file:
+sbond	triangle.c	1234;"	d	file:
+scale_expansion_zeroelim	triangle.c	/^int scale_expansion_zeroelim(elen, e, b, h)   \/* e and h cannot be the same. *\/$/;"	f
+scoutsegment	triangle.c	/^int scoutsegment(m, b, searchtri, endpoint2, newmark)$/;"	f
+sdecode	triangle.c	1165;"	d	file:
+sdest	triangle.c	1214;"	d	file:
+sdissolve	triangle.c	1241;"	d	file:
+segmentintersection	triangle.c	/^void segmentintersection(m, b, splittri, splitsubseg, endpoint2)$/;"	f
+segmentlist	triangle.h	/^  int *segmentlist;                                              \/* In \/ out *\/$/;"	m	struct:triangulateio
+segmentmarkerlist	triangle.h	/^  int *segmentmarkerlist;                                        \/* In \/ out *\/$/;"	m	struct:triangulateio
+sencode	triangle.c	1174;"	d	file:
+setapex	triangle.c	1085;"	d	file:
+setareabound	triangle.c	1142;"	d	file:
+setdest	triangle.c	1082;"	d	file:
+setelemattribute	triangle.c	1135;"	d	file:
+setmark	triangle.c	1229;"	d	file:
+setorg	triangle.c	1079;"	d	file:
+setsdest	triangle.c	1220;"	d	file:
+setsorg	triangle.c	1217;"	d	file:
+setvertex2tri	triangle.c	1316;"	d	file:
+setvertexmark	triangle.c	1306;"	d	file:
+setvertextype	triangle.c	1311;"	d	file:
+size	hash.c	/^    int size;                   \/* table size *\/$/;"	m	struct:hashtable	file:
+snext	triangle.c	1200;"	d	file:
+snextself	triangle.c	1204;"	d	file:
+sorg	triangle.c	1211;"	d	file:
+specs	nnbathy.c	/^} specs;$/;"	t	typeref:struct:__anon7	file:
+specs_create	nnbathy.c	/^static specs* specs_create(void)$/;"	f	file:
+specs_destroy	nnbathy.c	/^void specs_destroy(specs * s)$/;"	f
+spivot	triangle.c	1189;"	d	file:
+spivotself	triangle.c	1193;"	d	file:
+splay	triangle.c	/^struct splaynode *splay(m, splaytree, searchpoint, searchtri)$/;"	f
+splayinsert	triangle.c	/^struct splaynode *splayinsert(m, splayroot, newkey, searchpoint)$/;"	f
+splaynode	triangle.c	/^struct splaynode {$/;"	s	file:
+splaynodes	triangle.c	/^  struct memorypool splaynodes;$/;"	m	struct:mesh	typeref:struct:mesh::memorypool	file:
+splitencsegs	triangle.c	/^void splitencsegs(m, b, triflaws)$/;"	f
+splitpermitted	triangle.c	/^int splitpermitted(struct mesh *m, struct osub *testsubseg, REAL iradius) {$/;"	f
+splitseg	triangle.c	/^  int splitseg;$/;"	m	struct:behavior	file:
+splitter	triangle.c	/^REAL splitter;       \/* Used to split REAL factors for exact multiplication. *\/$/;"	v
+splittriangle	triangle.c	/^void splittriangle(m, b, badtri)$/;"	f
+square	nnbathy.c	/^    int square;$/;"	m	struct:__anon7	file:
+ss	triangle.c	/^  subseg *ss;$/;"	m	struct:osub	file:
+ssorient	triangle.c	/^  int ssorient;                                       \/* Ranges from 0 to 1. *\/$/;"	m	struct:osub	file:
+ssym	triangle.c	1179;"	d	file:
+ssymself	triangle.c	1183;"	d	file:
+statistics	triangle.c	/^void statistics(m, b)$/;"	f
+stdissolve	triangle.c	1297;"	d	file:
+steiner	triangle.c	/^  int steiner;$/;"	m	struct:behavior	file:
+steinerleft	triangle.c	/^  int steinerleft;                 \/* Number of Steiner points not yet used. *\/$/;"	m	struct:mesh	file:
+stepx	preader.c	/^    double stepx;$/;"	m	struct:__anon14	file:
+stepy	preader.c	/^    double stepy;$/;"	m	struct:__anon14	file:
+stpivot	triangle.c	1280;"	d	file:
+str2double	minell.c	/^static int str2double(char* token, double* value)$/;"	f	file:
+str2double	nnbathy.c	/^static double str2double(char* token, char* option)$/;"	f	file:
+str2double	nncommon.c	/^int str2double(char* token, double* value)$/;"	f
+strcp	hash.c	/^static void* strcp(void* key)$/;"	f	file:
+streq	hash.c	/^static int streq(void* key1, void* key2)$/;"	f	file:
+strhash	hash.c	/^static unsigned int strhash(void* key)$/;"	f	file:
+subseg	triangle.c	/^typedef REAL **subseg;                  \/* Really:  typedef subseg *subseg   *\/$/;"	t	file:
+subsegcopy	triangle.c	1246;"	d	file:
+subsegdealloc	triangle.c	/^void subsegdealloc(m, dyingsubseg)$/;"	f
+subsegdest	triangle.c	/^  vertex subsegorg, subsegdest;                         \/* Its two vertices. *\/$/;"	m	struct:badsubseg	file:
+subsegequal	triangle.c	1252;"	d	file:
+subsegorg	triangle.c	/^  vertex subsegorg, subsegdest;                         \/* Its two vertices. *\/$/;"	m	struct:badsubseg	file:
+subsegs	triangle.c	/^  struct memorypool subsegs;$/;"	m	struct:mesh	typeref:struct:mesh::memorypool	file:
+subsegtraverse	triangle.c	/^subseg *subsegtraverse(m)$/;"	f
+suptitle	examples/1/suptitle.m	/^function hout=suptitle(str)$/;"	f
+suptitle	examples/2/suptitle.m	/^function hout=suptitle(str)$/;"	f
+sweepline	triangle.c	/^  int incremental, sweepline, dwyer;$/;"	m	struct:behavior	file:
+sweeplinedelaunay	triangle.c	/^long sweeplinedelaunay(m, b)$/;"	f
+sym	triangle.c	965;"	d	file:
+symself	triangle.c	969;"	d	file:
+syntax	triangle.c	/^void syntax()$/;"	f
+t	minell.c	/^    double t;$/;"	m	struct:minell	file:
+t1	minell.c	/^    double t1;$/;"	m	struct:minell	file:
+t2	minell.c	/^    double t2;$/;"	m	struct:minell	file:
+t_in	delaunay.h	/^    istack* t_in;$/;"	m	struct:delaunay
+t_out	delaunay.h	/^    istack* t_out;$/;"	m	struct:delaunay
+table	hash.c	/^    ht_bucket** table;$/;"	m	struct:hashtable	file:
+tallyencs	triangle.c	/^void tallyencs(m, b)$/;"	f
+tallyfaces	triangle.c	/^void tallyfaces(m, b)$/;"	f
+test	minell.c	/^int test = 0;$/;"	v
+testtriangle	triangle.c	/^void testtriangle(m, b, testtri)$/;"	f
+theta	minell.c	/^    double theta;               \/* inclination *\/$/;"	m	struct:minell	file:
+thin	nnbathy.c	/^    int thin;$/;"	m	struct:__anon7	file:
+tids	delaunay.h	/^    int tids[3];$/;"	m	struct:__anon2
+tio2delaunay	delaunay.c	/^static void tio2delaunay(struct triangulateio* tio_out, delaunay* d)$/;"	f	file:
+tio_destroy	delaunay.c	/^static void tio_destroy(struct triangulateio* tio)$/;"	f	file:
+tio_init	delaunay.c	/^static void tio_init(struct triangulateio* tio)$/;"	f	file:
+transfernodes	triangle.c	/^void transfernodes(m, b, pointlist, pointattriblist, pointmarkerlist,$/;"	f
+traversalinit	triangle.c	/^void traversalinit(pool)$/;"	f
+traverse	triangle.c	/^VOID *traverse(pool)$/;"	f
+tri	triangle.c	/^  triangle *tri;$/;"	m	struct:otri	file:
+triangapex	triangle.c	/^  vertex triangorg, triangdest, triangapex;           \/* Its three vertices. *\/$/;"	m	struct:badtriang	file:
+triangdest	triangle.c	/^  vertex triangorg, triangdest, triangapex;           \/* Its three vertices. *\/$/;"	m	struct:badtriang	file:
+triangle	delaunay.h	/^} triangle;$/;"	t	typeref:struct:__anon1
+triangle	triangle.c	/^typedef REAL **triangle;            \/* Really:  typedef triangle *triangle   *\/$/;"	t	file:
+triangle_neighbours	delaunay.h	/^} triangle_neighbours;$/;"	t	typeref:struct:__anon2
+trianglearealist	triangle.h	/^  REAL *trianglearealist;                                         \/* In only *\/$/;"	m	struct:triangulateio
+triangleattributelist	triangle.h	/^  REAL *triangleattributelist;                                   \/* In \/ out *\/$/;"	m	struct:triangulateio
+triangledealloc	triangle.c	/^void triangledealloc(m, dyingtriangle)$/;"	f
+triangledeinit	triangle.c	/^void triangledeinit(m, b)$/;"	f
+triangleinit	triangle.c	/^void triangleinit(m)$/;"	f
+trianglelist	triangle.h	/^  int *trianglelist;                                             \/* In \/ out *\/$/;"	m	struct:triangulateio
+triangles	delaunay.h	/^    triangle* triangles;$/;"	m	struct:delaunay
+triangles	triangle.c	/^  struct memorypool triangles;$/;"	m	struct:mesh	typeref:struct:mesh::memorypool	file:
+triangletraverse	triangle.c	/^triangle *triangletraverse(m)$/;"	f
+triangorg	triangle.c	/^  vertex triangorg, triangdest, triangapex;           \/* Its three vertices. *\/$/;"	m	struct:badtriang	file:
+triangulateio	triangle.h	/^struct triangulateio {$/;"	s
+triangulatepolygon	triangle.c	/^void triangulatepolygon(m, b, firstedge, lastedge, edgecount, doflip, triflaws)$/;"	f
+trifree	triangle.c	/^void trifree(memptr)$/;"	f
+trimalloc	triangle.c	/^VOID *trimalloc(size)$/;"	f
+triunsuitable	triangle.c	/^int triunsuitable(triorg, tridest, triapex, area)$/;"	f
+tsbond	triangle.c	1286;"	d	file:
+tsdissolve	triangle.c	1292;"	d	file:
+tspivot	triangle.c	1273;"	d	file:
+u1	minell.c	/^    double u1;$/;"	m	struct:minell	file:
+u2	minell.c	/^    double u2;$/;"	m	struct:minell	file:
+unallocateditems	triangle.c	/^  int unallocateditems;$/;"	m	struct:memorypool	file:
+undeads	triangle.c	/^  int undeads;    \/* Number of input vertices that don't appear in the mesh. *\/$/;"	m	struct:mesh	file:
+under60degrees	triangle.c	/^int under60degrees(struct osub *sub1, struct osub *sub2) {$/;"	f
+undovertex	triangle.c	/^void undovertex(m, b)$/;"	f
+unflip	triangle.c	/^void unflip(m, b, flipedge)$/;"	f
+uninfect	triangle.c	1121;"	d	file:
+usage	minell.c	/^static void usage()$/;"	f	file:
+usage	nnai.c	/^static void usage()$/;"	f	file:
+usage	nnbathy.c	/^static void usage()$/;"	f	file:
+usage	nnpi.c	/^static void usage()$/;"	f	file:
+userandomseed	minell.c	/^int userandomseed = 0;$/;"	v
+usertest	triangle.c	/^  int poly, refine, quality, vararea, fixedarea, usertest;$/;"	m	struct:behavior	file:
+usesegments	triangle.c	/^  int usesegments;$/;"	m	struct:behavior	file:
+v	istack.h	/^    int* v;$/;"	m	struct:istack
+v	nnpi.c	/^    double* v;$/;"	m	struct:__anon11	file:
+v1	minell.c	/^    double v1;$/;"	m	struct:minell	file:
+v2	minell.c	/^    double v2;$/;"	m	struct:minell	file:
+vararea	triangle.c	/^  int poly, refine, quality, vararea, fixedarea, usertest;$/;"	m	struct:behavior	file:
+vedgefilename	triangle.c	/^  char vedgefilename[FILENAMESIZE];$/;"	m	struct:behavior	file:
+verbose	triangle.c	/^  int quiet, verbose;$/;"	m	struct:behavior	file:
+version	nnbathy.c	/^static void version()$/;"	f	file:
+vertex	triangle.c	/^typedef REAL *vertex;$/;"	t	file:
+vertex2tri	triangle.c	1314;"	d	file:
+vertex2triindex	triangle.c	/^  int vertex2triindex;     \/* Index to find a triangle adjacent to a vertex. *\/$/;"	m	struct:mesh	file:
+vertexdealloc	triangle.c	/^void vertexdealloc(m, dyingvertex)$/;"	f
+vertexmark	triangle.c	1304;"	d	file:
+vertexmarkindex	triangle.c	/^  int vertexmarkindex;         \/* Index to find boundary marker of a vertex. *\/$/;"	m	struct:mesh	file:
+vertexmedian	triangle.c	/^void vertexmedian(sortarray, arraysize, median, axis)$/;"	f
+vertexsort	triangle.c	/^void vertexsort(sortarray, arraysize)$/;"	f
+vertextraverse	triangle.c	/^vertex vertextraverse(m)$/;"	f
+vertextype	triangle.c	1309;"	d	file:
+vertices	nnai.c	/^    int* vertices;              \/* vertex indices [nvertices] *\/$/;"	m	struct:__anon6	file:
+vertices	nnpi.c	/^    int* vertices;              \/* vertex indices *\/$/;"	m	struct:nnpi	file:
+vertices	nnpi.c	/^    int* vertices;              \/* vertex indices [nvertices] *\/$/;"	m	struct:__anon12	file:
+vertices	triangle.c	/^  struct memorypool vertices;$/;"	m	struct:mesh	typeref:struct:mesh::memorypool	file:
+vids	delaunay.h	/^    int vids[3];$/;"	m	struct:__anon1
+view	examples/1/viewexample.m	/^function view(data, output)$/;"	f
+viewdata	examples/2/viewdata.m	/^function [] = viewdata(fname, verbose)$/;"	f
+viewdata	examples/4/viewdata.m	/^function [] = viewdata(fname, verbose)$/;"	f
+viewexample	examples/1/viewexample.m	/^function viewexample()$/;"	f
+viewinterp	examples/2/viewinterp.m	/^function [h] = viewinterp(fin, fout, verbose)$/;"	f
+viewinterp	examples/4/viewinterp.m	/^function [h] = viewinterp(fin, fout, verbose)$/;"	f
+viewinterp	examples/5/viewinterp.m	/^function [h] = viewinterp(fin, fout, verbose)$/;"	f
+viewinterp	examples/6/viewinterp.m	/^function [h] = viewinterp(fin, fout, verbose)$/;"	f
+viewinterp2	examples/5/viewinterp2.m	/^function [h] = viewinterp2(fin, fout, verbose)$/;"	f
+viri	triangle.c	/^  struct memorypool viri;$/;"	m	struct:mesh	typeref:struct:mesh::memorypool	file:
+vnodefilename	triangle.c	/^  char vnodefilename[FILENAMESIZE];$/;"	m	struct:behavior	file:
+voronoi	triangle.c	/^  int edgesout, voronoi, neighbors, geomview;$/;"	m	struct:behavior	file:
+w	lpi.c	/^    double w[3];$/;"	m	struct:__anon4	file:
+w1	minell.c	/^    double w1;$/;"	m	struct:minell	file:
+w2	minell.c	/^    double w2;$/;"	m	struct:minell	file:
+weighted	triangle.c	/^  int regionattrib, convex, weighted, jettison;$/;"	m	struct:behavior	file:
+weights	lpi.c	/^    lweights* weights;$/;"	m	struct:lpi	file:
+weights	nnai.c	/^    double* weights;            \/* vertex weights [nvertices] *\/$/;"	m	struct:__anon6	file:
+weights	nnai.c	/^    nn_weights* weights;$/;"	m	struct:nnai	file:
+weights	nnpi.c	/^    double* weights;            \/* vertex weights [nvertices] *\/$/;"	m	struct:__anon12	file:
+weights	nnpi.c	/^    double* weights;$/;"	m	struct:nnpi	file:
+wmin	nnai.c	/^    double wmin;$/;"	m	struct:nnai	file:
+wmin	nnbathy.c	/^    double wmin;$/;"	m	struct:__anon7	file:
+wmin	nnpi.c	/^    double wmin;$/;"	m	struct:nnpi	file:
+wordtype	triangle.c	/^enum wordtype {POINTER, FLOATINGPOINT};$/;"	g	file:
+writeoff	triangle.c	/^void writeoff(m, b, offfilename, argc, argv)$/;"	f
+x	delaunay.h	/^    double x;$/;"	m	struct:__anon3
+x	minell.h	/^    double x;$/;"	m	struct:__anon5
+x	nn.h	/^    double x;$/;"	m	struct:__anon9
+x	nnai.c	/^    double* x;                  \/* [n] *\/$/;"	m	struct:nnai	file:
+x0	preader.c	/^    double x0;$/;"	m	struct:__anon14	file:
+xkey	triangle.c	/^  REAL xkey, ykey;                              \/* Coordinates of the event. *\/$/;"	m	struct:event	file:
+xmax	delaunay.h	/^    double xmax;$/;"	m	struct:delaunay
+xmax	nnbathy.c	/^    double xmax;$/;"	m	struct:__anon7	file:
+xmax	triangle.c	/^  REAL xmin, xmax, ymin, ymax;                            \/* x and y bounds. *\/$/;"	m	struct:mesh	file:
+xmin	delaunay.h	/^    double xmin;$/;"	m	struct:delaunay
+xmin	nnbathy.c	/^    double xmin;$/;"	m	struct:__anon7	file:
+xmin	triangle.c	/^  REAL xmin, xmax, ymin, ymax;                            \/* x and y bounds. *\/$/;"	m	struct:mesh	file:
+xminextreme	triangle.c	/^  REAL xminextreme;      \/* Nonexistent x value used as a flag in sweepline. *\/$/;"	m	struct:mesh	file:
+y	delaunay.h	/^    double y;$/;"	m	struct:__anon3
+y	minell.h	/^    double y;$/;"	m	struct:__anon5
+y	nn.h	/^    double y;$/;"	m	struct:__anon9
+y	nnai.c	/^    double* y;                  \/* [n] *\/$/;"	m	struct:nnai	file:
+ykey	triangle.c	/^  REAL xkey, ykey;                              \/* Coordinates of the event. *\/$/;"	m	struct:event	file:
+ymax	delaunay.h	/^    double ymax;$/;"	m	struct:delaunay
+ymax	nnbathy.c	/^    double ymax;$/;"	m	struct:__anon7	file:
+ymax	triangle.c	/^  REAL xmin, xmax, ymin, ymax;                            \/* x and y bounds. *\/$/;"	m	struct:mesh	file:
+ymin	delaunay.h	/^    double ymin;$/;"	m	struct:delaunay
+ymin	nnbathy.c	/^    double ymin;$/;"	m	struct:__anon7	file:
+ymin	triangle.c	/^  REAL xmin, xmax, ymin, ymax;                            \/* x and y bounds. *\/$/;"	m	struct:mesh	file:
+z	minell.h	/^    double z;$/;"	m	struct:__anon5
+z	nn.h	/^    double z;$/;"	m	struct:__anon9
+zcolor	examples/2/viewdata.m	/^function c = zcolor(z, zmin, zmax, map)$/;"	f
+zcolor	examples/4/viewdata.m	/^function c = zcolor(z, zmin, zmax, map)$/;"	f
+zcolor	examples/5/viewinterp2.m	/^function c = zcolor(z, zmin, zmax, map)$/;"	f
+zoom	nnbathy.c	/^    double zoom;$/;"	m	struct:__anon7	file:
